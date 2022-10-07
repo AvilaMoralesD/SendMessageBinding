@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <data>
+<variable
+    name="message"
+    type="com.example.sendmessagebinding.data.Message" />
+        </data>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".ui.ViewMessageActivity"
+            android:layout_margin="@dimen/lnlymargin">
+
+                <TextView
+                    android:id="@+id/tvUser1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvUser2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tv2hint"
+                    android:text="@{message.user.name}"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvMessage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview3"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvMessage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et4hint"
+                    android:text="@{message.content}"
+                    android:textColorHint="@color/black" />
+
+        </LinearLayout>
+</layout>

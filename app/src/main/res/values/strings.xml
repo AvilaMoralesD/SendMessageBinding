@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SendMessageBinding</string>
+    <string name="button">Button</string>
+    <string name="etMessageText">Mensaje mio escrito</string>
+    <string name="btSendText">Enviar</string>
+    <string name="etMessageHint">Escribe un mensaje</string>
+    <string name="etUserHint">Introduce tu nombre…</string>
+
+    <string name="textview">El usuario…</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">Ha escrito el mensaje:</string>
+    <string name="textview4">TextView</string>
+    <string name="tv2hint">Inserte usuario</string>
+    <string name="et4hint">Mensaje</string>
+    <string name="Enviar">Button</string>
+    <string name="todo">TODO</string>
+
+    <string name="minombre">Damián Ávila</string>
+    <string name="mibrief">Esta es una app muy guay con binding</string>
+    <string name="misubtitulo">Developer de Android</string>
+    <string name="github">damianDAMPortada</string>
+    <string name="playstore">234234234342423</string>
+    <string name="facebook">AndroidOfficial</string>
+    <string name="aboutus">Saber más</string>
+</resources>

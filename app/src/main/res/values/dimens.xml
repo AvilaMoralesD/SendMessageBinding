@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="etMessageMinHeight">48dp</dimen>
+    <dimen name="etMessageMarginTop">50dp</dimen>
+    <dimen name="btSendMarginTop">50dp</dimen>
+    <dimen name="etUserMarginTop">50dp</dimen>
+    <dimen name="etUserMinHeight">48dp</dimen>
+    <dimen name="lnlymargin">50dp</dimen>
+</resources>
